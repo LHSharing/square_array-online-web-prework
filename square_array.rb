@@ -6,15 +6,3 @@ new_numbers = []
   new_numbers
 end
 
-# your code here
-#end
-#=end
-
-=begin
-def square_array(numbers)
-  Enumerator.new do |y|
-    numbers.each { |e| y << e ** 2 }    
-  end
-  .take(numbers.length)
-end
-=end
